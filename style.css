@@ -191,9 +191,14 @@ body {
         margin-bottom: 2em;
         border-radius: 1.2em;
     }
+      
     .main-contain {
       width: 80%;
     }
+         
+.head-text{
+    font-size: 20px;
+}
 
     #myBtn {
       display: none;
