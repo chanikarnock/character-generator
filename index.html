@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json"> 
+
+    <link rel="stylesheet" href="style.css">
+    <title>Character Creation Generator</title>
+
+</head>
+
+<body>
+    <h1 class="heading">˗ˏˋ Character Generator ˎˊ-</h1>
+
+    <div class="main-contain">
+        <div class="random-container">
+            <div class="div4random">Random Age<br>
+                <p class="randomResult">🤔</p>
+            </div>
+            <div class="div4random">Random Zodiac Sign<br>
+                <p class="randomResult">🤔</p>
+            </div>
+            <div class="div4random">Random MBTI<br>
+                <p class="randomResult">🤔</p>
+            </div>
+            <div class="div4random">Random Alignment<br>
+                <p class="randomResult">🤔</p>
+            </div>            
+        </div>
+        <div id="detail-result" class="detailresult">          
+      </div>            
+        <button id="firstrandom_btn" class="randombtn"> quick ⚡️ generator </button>
+
+        <br>
+        <h2>...or mix your own generator!</h2>
+
+        <div class="row">
+            <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>Job</span>
+                </div>
+              </label>
+              <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>First Impression</span>
+                </div>
+              </label>
+              <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>The Want</span>
+                </div>
+              </label>
+              <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>The Fear</span>
+                </div>
+              </label>
+              <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>Trivia #1</span>
+                </div>
+              </label>
+              <label tabindex="0">
+                <input tabindex="-1" type="checkbox" name="" />
+                <div class="icon-box">
+                  <i class="fa fa-heart"></i>
+                  <span>Trivia #2</span>
+                </div>
+              </label>              
+        </div>
+        <button id="secrandom_btn" class="randombtn">✏️ Let's see! ✏️</button>
+
+        
+
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
