@@ -4,8 +4,14 @@
     font-family: 'Poppins';
 }
 
+html{
+    scroll-behavior: smooth;
+  }
+
+
 body {
     background-color: #4A7AC9;
+   
 }
 
 .heading {
@@ -38,7 +44,8 @@ body {
     margin-bottom: 1.5em;
     background-color: white;
     text-align: center;
-    font-weight: 700;    
+    font-weight: 700;
+    transition: all .5s linear;
 }
 
 #detail-result{
@@ -48,6 +55,7 @@ body {
     padding: 1.2em;
     margin-bottom: 2em;
     border-radius: 1.2em;
+    transition:all 1s;
 }
 
 .randomResult {
@@ -132,6 +140,28 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  #myBtn {    
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    border: none;
+    background-color: white;
+    color: #4A7AC9; 
+    cursor: pointer; 
+    padding: 1em; 
+    border-radius: 10px; 
+    font-size: 18px;
+    text-decoration: none;
+    opacity: .7;
+  }
+  #myBtn:hover {
+    background-color: #4A7AC9;
+    color: white;
+    border-style: dashed;
+    opacity: 1;
+  }
+  
   
   @media only screen and (min-width: 769px){
 
@@ -145,6 +175,10 @@ body {
     }
     .main-contain {
       width: 80%;
+    }
+
+    #myBtn {
+      display: none;
     }
 
   }

@@ -7,8 +7,10 @@ const resultPara = document.getElementsByClassName("randomResult")
 const detailResult = document.getElementById("detail-result")
 
 const secRandBTB = document.getElementById("secrandom_btn")
-const sexRandFactor = document.getElementsByClassName("random2")
+const sexRandFactor = document.getElementsByClassName("randomResult2")
 const resultTriviaPara = document.getElementsByClassName("randomResult2")
+
+const mybutton = document.getElementById("myBtn");
 
 randomBTN.addEventListener('click', random4)
 secRandBTB.addEventListener('click', mixRandom)
@@ -39,6 +41,10 @@ function random4(){
 function mixRandom(){
     
 }
+
+
+
+
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
