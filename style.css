@@ -15,9 +15,16 @@ body {
 }
 
 .heading {
-    padding: 1.5em 0em .5em 0em;
+    padding: .5em 0em .5em 0em;
     text-align: center;
     color: white;
+}
+
+.head-text{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: medium;
 }
 
 .main-contain {
