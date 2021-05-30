@@ -33,6 +33,8 @@ function random4(){
 
             detailResult.innerHTML += "<br><br><b>"+MAIN4DATA[2][indexRandMBTI].typeName+"</b>"
             detailResult.innerHTML += "<br>"+ MAIN4DATA[2][indexRandMBTI].overview
+            detailResult.innerHTML += "<br> 🔺 "+MAIN4DATA[2][indexRandMBTI].positiveTrait
+            detailResult.innerHTML += "<br> 🔻 "+MAIN4DATA[2][indexRandMBTI].negativeTrait
         }else
             resultPara[i].innerHTML = MAIN4DATA[i][Object.keys(MAIN4DATA[i])[Math.floor(Math.random()*Object.keys(MAIN4DATA[i]).length)]]        
     }       
