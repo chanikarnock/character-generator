@@ -32,11 +32,12 @@ body {
 }
 
 .head-text:first-child {
-  padding-bottom: .1em
+    padding-top: 2em;
+  padding-bottom: .1em;
 } 
 
 .head-text:last-child{
-    padding-top: .1em
+    padding-top: .1em;
 }
 
 .main-contain {
