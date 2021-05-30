@@ -15,7 +15,8 @@ body {
 }
 
 .main-contain {
-    padding: 15px;    
+    padding: 15px;
+   
     margin: auto;
     border-color: white;
     display: flex;
@@ -33,7 +34,7 @@ body {
 .div4random {
     flex-grow: 1;
     border: solid #4A7AC9;
-    padding: 1em;
+    padding: 1em .5em;
     margin-bottom: 1.5em;
     background-color: white;
     text-align: center;
@@ -117,17 +118,16 @@ body {
   }
 
   .credit {
-    float:right;
+    float: right;
     text-align: right;
     width: 40%;
-    margin: auto;
     margin-top: 1.5em;
     font-size: small;
     font-weight: bold;
-    color: #38383a;
-    text-decoration: none;
+    color: #38383a;    
   }
   .credit a{
+
     font-size: small;
     color: #fff;
     text-decoration: none;
@@ -142,6 +142,9 @@ body {
         margin-top: 1em;
         margin-bottom: 2em;
         border-radius: 1.2em;
+    }
+    .main-contain {
+      width: 80%;
     }
 
   }
