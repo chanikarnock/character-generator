@@ -5,7 +5,9 @@ const MAIN4DATA = Object.values(DATA)
 const randomBTN = document.getElementById("firstrandom_btn")
 const resultPara = document.getElementsByClassName("randomResult")
 const detailResult = document.getElementById("detail-result")
+
 const secRandBTB = document.getElementById("secrandom_btn")
+const sexRandFactor = document.getElementsByClassName("random2")
 const resultTriviaPara = document.getElementsByClassName("randomResult2")
 
 randomBTN.addEventListener('click', random4)
