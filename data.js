@@ -66,7 +66,7 @@ const DATA = {
             positiveTrait: "Imaginative and sensitive, compassionate and kind, selfless and unworldly, intuitive and sympathetic",
             negativeTrait: "Escapist and idealistic, secretive and vague, weak-willed and easily led"
         }
-        /* http://nuclear.ucdavis.edu/~rpicha/personal/astrology/ */       
+  
     ],
     "MBTI":[
         {
@@ -165,7 +165,6 @@ const DATA = {
             positiveTrait: "Efficient, strategic thinkers, self-confident, strong-willed, charismatic and inspiring, energetic",
             negativeTrait: "Stubborn and dominant, arrogant, impatient, intolerant, cold and ruthless, poor handling of emotions"
         }
-        /* https://www.16personalities.com/ */
     ],
     "Alignment":[
         "Lawful Good, The Crusader",
