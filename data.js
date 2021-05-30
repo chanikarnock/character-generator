@@ -7,63 +7,63 @@ const DATA = {
     ],
     "Zodiac Sign": [
         {
-            typeName: "Aries",
+            typeName: "Aries, The Fearless",
             positiveTrait: "Adventurous and energetic, pioneering and courageous, enthusiastic and confident, dynamic and quick-witted",
-            negativeTrait: "Selfish and quick-tempered, impulsive and impatient, foolhardy and daredevil "
+            negativeTrait: "Selfish and quick-tempered, impulsive and impatient, foolhardy and daredevil, competitive"
         },
         {
-            typeName: "Taurus",
-            positiveTrait: "Patient and reliable, warmhearted and loving, persistent and determined, placid and security loving",
-            negativeTrait: "Jealous and possessive, resentful and inflexible, self-indulgent and greedy"
+            typeName: "Taurus, The Reliable",
+            positiveTrait: "Supportive, Patient and reliable, warmhearted and loving, persistent and determined, placid and security loving",
+            negativeTrait: "Stubborn, Jealous and possessive, resentful and inflexible, self-indulgent and greedy"
         },
         {
-            typeName: "Gemini",
+            typeName: "Gemini, The Eloquent",
             positiveTrait: "Adaptable and versatile, communicative and witty, intellectual and eloquent, youthful and lively",
             negativeTrait: "Nervous and tense, superficial and inconsistent, cunning and inquisitive "
         },
         {
-            typeName: "Cancer",
-            positiveTrait: "Emotional and loving, intuitive and imaginative, shrewd and cautious, protective and sympathetic",
-            negativeTrait: "Changeable and moody, overemotional and touchy, clinging and unable to let go"
+            typeName: "Cancer, The Dependable",
+            positiveTrait: "Playful, Emotional and loving, intuitive and imaginative, shrewd and cautious, protective and sympathetic",
+            negativeTrait: "Changeable and moody, Passive-Aggressive, overemotional and touchy, clinging and unable to let go"
         },
         {
-            typeName: "Leo",
-            positiveTrait: "Generous and warmhearted, creative and enthusiastic, broad-minded and expansive, faithful and loving",
-            negativeTrait: "Pompous and patronizing, bossy and interfering, dogmatic and intolerant "
+            typeName: "Leo, The Powerful",
+            positiveTrait: "Protective, Generous and warmhearted, creative and enthusiastic, broad-minded and expansive, faithful and loving",
+            negativeTrait: "dominant, Pompous and patronizing, bossy and interfering, dogmatic and intolerant "
         },
         {
-            typeName: "Virgo",
+            typeName: "Virgo, The Wise",
             positiveTrait: "Modest and shy, meticulous and reliable, practical and diligent, intelligent and analytical",
-            negativeTrait: "Fussy and a worrier, overcritical and harsh, perfectionist and conservative"
+            negativeTrait: "Fussy and a worrier, overcritical and harsh, perfectionist and conservative, uptight"
         },
         {
-            typeName: "Libra",
-            positiveTrait: "Diplomatic and urbane, romantic and charming,  easygoing and sociable, idealistic and peaceable",
+            typeName: "Libra, The Charming",
+            positiveTrait: "Smart, Diplomatic and urbane, romantic and charming,  easygoing and sociable, idealistic and peaceable",
             negativeTrait: "Indecisive and changeable, gullible and easily influenced, flirtatious and self-indulgent"
         },
         {
-            typeName: "Scorpio",
+            typeName: "Scorpio, The Seductive ",
             positiveTrait: "Determined and forceful, emotional and intuitive, powerful and passionate, exciting and magnetic",
-            negativeTrait: "Jealous and resentful, compulsive and obsessive, secretive and obstinate"
+            negativeTrait: "Manipulate, Jealous and resentful, compulsive and obsessive, secretive and obstinate"
         },
         {
-            typeName: "Sagittarius",
+            typeName: "Sagittarius, The Adventurous",
             positiveTrait: "Optimistic and freedom-loving, jovial and good-humored, honest and straightforward, intellectual and philosophical",
             negativeTrait: "Blindly optimistic and careless, irresponsible and superficial, tactless and restless"
         },
         {
-            typeName: "Capricorn",
+            typeName: "Capricorn, The Mature",
             positiveTrait: "Practical and prudent, ambitious and disciplined, patient and careful, humorous and reserved",
             negativeTrait: "Pessimistic and fatalistic, miserly and grudging"
         },
         {
-            typeName: "Aquarius",
-            positiveTrait: "Friendly and humanitarian, honest and loyal, original and inventive, independent and intellectual",
-            negativeTrait: "Intractable and contrary, perverse and unpredictable, unemotional and detached"
+            typeName: "Aquarius, The Unusual",
+            positiveTrait: "Friendly and humanitarian, honest and loyal, original and revolutionary , independent and intellectual",
+            negativeTrait: "Intractable and contrary, perverse and unpredictable, unemotional and detached, authoritarian"
         },
         {
-            typeName: "Pisces",
-            positiveTrait: "Imaginative and sensitive, compassionate and kind, selfless and unworldly, intuitive and sympathetic",
+            typeName: "Pisces, The Philosopher",
+            positiveTrait: "Creative and sensitive, compassionate and kind, selfless and unworldly, intuitive and sympathetic",
             negativeTrait: "Escapist and idealistic, secretive and vague, weak-willed and easily led"
         }
   
