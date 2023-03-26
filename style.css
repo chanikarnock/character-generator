@@ -76,14 +76,14 @@ body {
     transition:all 1s;
 }
 
-.randomResult {
+.random-result {
     display:inline-block;
     font-weight: 400;
     word-wrap: break-word;
     overflow: visible;
 }
 
-.randombtn {
+.random-btn {
     margin: auto;
     border: solid white;
     background-color: #4A7AC9;
