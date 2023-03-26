@@ -1,52 +1,46 @@
 import { DATA } from './data.js'
 
-const MAIN4DATA = Object.values(DATA)
+const MAIN_DATA = Object.values(DATA)
 
-const randomBTN = document.getElementById("firstrandom_btn")
-const resultPara = document.getElementsByClassName("randomResult")
+const quickRandomBtn = document.getElementById("quickRandomBtn")
+const resultElm = document.getElementsByClassName("random-result")
 const detailResult = document.getElementById("detail-result")
 
-const secRandBTB = document.getElementById("secrandom_btn")
+const customRandomBtn = document.getElementById("customRandomBtn")
 const sexRandFactor = document.getElementsByClassName("randomResult2")
-const resultTriviaPara = document.getElementsByClassName("randomResult2")
+const resultTriviaElm = document.getElementsByClassName("randomResult2")
 
-const mybutton = document.getElementById("myBtn");
+quickRandomBtn.addEventListener('click', quickRandom)
+customRandomBtn.addEventListener('click', mixRandom)
 
-randomBTN.addEventListener('click', random4)
-secRandBTB.addEventListener('click', mixRandom)
-
-function random4(){
+function quickRandom(){
     detailResult.style.display = "block"
     detailResult.innerHTML = ""
     for(let i=0; i<4;i++){        
         if ( i == 1) {
-            let randomZodiac = [Object.keys(MAIN4DATA[i])[Math.floor(Math.random()*Object.keys(MAIN4DATA[i]).length)]]           
-            resultPara[i].innerHTML = MAIN4DATA[i][randomZodiac].typeName
+            let randomZodiac = [Object.keys(MAIN_DATA[i])[Math.floor(Math.random()*Object.keys(MAIN_DATA[i]).length)]]           
+            resultElm[i].innerHTML = MAIN_DATA[i][randomZodiac].typeNameMAIN_DATA
 
-            detailResult.innerHTML += "<b>"+MAIN4DATA[1][randomZodiac].typeName+"<b>"
-            detailResult.innerHTML += "<br> 🔺 "+MAIN4DATA[1][randomZodiac].positiveTrait
-            detailResult.innerHTML += "<br> 🔻 "+MAIN4DATA[1][randomZodiac].negativeTrait
+            detailResult.innerHTML += "<b>"+MAIN_DATA[1][randomZodiac].typeName+"<b>"
+            detailResult.innerHTML += "<br> 🔺 "+MAIN_DATA[1][randomZodiac].positiveTrait
+            detailResult.innerHTML += "<br> 🔻 "+MAIN_DATA[1][randomZodiac].negativeTrait
 
         }else if(i == 2 ){
-            let indexRandMBTI = [Object.keys(MAIN4DATA[i])[Math.floor(Math.random()*Object.keys(MAIN4DATA[i]).length)]]
-            resultPara[i].innerHTML = MAIN4DATA[i][indexRandMBTI].typeName
+            let indexRandMBTI = [Object.keys(MAIN_DATA[i])[Math.floor(Math.random()*Object.keys(MAIN_DATA[i]).length)]]
+            resultElm[i].innerHTML = MAIN_DATA[i][indexRandMBTI].typeName
 
-            detailResult.innerHTML += "<br><br><b>"+MAIN4DATA[2][indexRandMBTI].typeName+"</b>"
-            detailResult.innerHTML += "<br>"+ MAIN4DATA[2][indexRandMBTI].overview
-            detailResult.innerHTML += "<br> 🔺 "+MAIN4DATA[2][indexRandMBTI].positiveTrait
-            detailResult.innerHTML += "<br> 🔻 "+MAIN4DATA[2][indexRandMBTI].negativeTrait
+            detailResult.innerHTML += "<br><br><b>"+MAIN_DATA[2][indexRandMBTI].typeName+"</b>"
+            detailResult.innerHTML += "<br>"+ MAIN_DATA[2][indexRandMBTI].overview
+            detailResult.innerHTML += "<br> 🔺 "+MAIN_DATA[2][indexRandMBTI].positiveTrait
+            detailResult.innerHTML += "<br> 🔻 "+MAIN_DATA[2][indexRandMBTI].negativeTrait
         }else
-            resultPara[i].innerHTML = MAIN4DATA[i][Object.keys(MAIN4DATA[i])[Math.floor(Math.random()*Object.keys(MAIN4DATA[i]).length)]]        
+            resultElm[i].innerHTML = MAIN_DATA[i][Object.keys(MAIN_DATA[i])[Math.floor(Math.random()*Object.keys(MAIN_DATA[i]).length)]]        
     }       
 }
 
 function mixRandom(){
-    
+    // WIP
 }
-
-
-
-
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
