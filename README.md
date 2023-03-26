@@ -5,4 +5,4 @@ Character generator cause i'm bored
 
 *This is just for fun.
 
-Go try click click -> https://chanikarnock.github.io/PWA-tester/
+Go try click click -> https://chanikarnock.github.io/character-generator/
